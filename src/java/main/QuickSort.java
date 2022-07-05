@@ -41,5 +41,17 @@ public class QuickSort implements IArraySort {
         arr[i] = arr[j];
         arr[j] = temp;
     }
+    public static void main (String[] args) throws Exception {
+        QuickSort qs = new QuickSort();
+        int[] arr = {1,2,3,4,5,6,0};
+        for(int i : qs.sort(arr)){
+            System.out.println(i);
+        }
+    }
 
 }
+
+
+
+
+
